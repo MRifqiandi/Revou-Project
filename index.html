@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body>
+    <!--
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    -->
+
+    <div class="container">
+      <header>
+        <div class="landing-page">
+          <a href="">Home</a>
+          <a href="">Our Profile</a>
+          <a href="">Portofolio</a>
+          <a href="">Message Us</a>
+        </div>
+      </header>
+      <main>
+        <div class="vision">
+          <p>
+            REMOVES BARRIERS TO HIGH-QUALITY MUSIC <br />
+            EDU THE TRANSFORMATIVE POWER OF MUSIC.
+          </p>
+          <img src="images/sing.jpg" alt="sing" />
+        </div>
+        <div class="welcome-page">
+          <h1>Welcome</h1>
+        </div>
+        <div class="social-media">
+          <div class="instagram">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <a href="#">Instagram</a>
+          </div>
+          <div class="discord">
+            <ion-icon name="logo-discord"></ion-icon>
+            <a href="#">Discord</a>
+          </div>
+        </div>
+
+        <div class="main__container">
+          <form id="biodata-user">
+            <div class="biodata">
+              <div class="biodata__name">
+                <label for="fname">Name :</label>
+                <input type="text" id="fname" placeholder="Your Name" />
+              </div>
+              <div class="biodata__email">
+                <label for="fdate">Tanggal Lahir :</label>
+                <input type="date" id="fdate" />
+              </div>
+              <div class="biodata__gender">
+                <label for="gender">Jenis Kelamin :</label>
+                <div class="biodata__gender-1">
+                  <div class="biodata__gender__1-male">
+                    <input
+                      type="radio"
+                      id="male"
+                      name="jenis-kelamin"
+                      value="Laki-Laki"
+                    />
+                    <label for="male">Laki-Laki</label>
+                  </div>
+                  <div class="biodata__gender__1-female">
+                    <input
+                      type="radio"
+                      id="female"
+                      name="jenis-kelamin"
+                      value="Perempuan"
+                    />
+                    <label for="female">Perempuan</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-area">
+              <label for="text-area-1">Pesan :</label>
+              <textarea
+                name="text"
+                id="text-area-1"
+                cols="34"
+                rows="5 "
+              ></textarea>
+            </div>
+            <div class="submit-button">
+              <a href="profil-page.html">
+                <button type="button">Submit</button>
+              </a>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
